@@ -67,6 +67,16 @@
                         "type": "string",
                         "default": "error",
                         "description": "Log level for sclang language server {info, debug, warning, error, critical, all}"
+                    },
+                    "supercollider.evaluate.flashTime": {
+                        "type": "number",
+                        "default": 60,
+                        "description": "How long the evaluate flash time should be."
+                    },
+                    "supercollider.evaluate.postFlashTime": {
+                        "type": "number",
+                        "default": 600,
+                        "description": "How long the post evaluate flash time should be."
                     }
                 }
             }
